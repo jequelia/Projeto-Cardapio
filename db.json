@@ -1,0 +1,18 @@
+{
+  "pedido": [
+    {
+      "id": 1,
+      "itens": " feijão, arroz",
+      "valor": " 12",
+      "nome_client": " jequelia"
+    }
+  ],
+  "prato": [
+    {
+      "id": 1,
+      "nome": "feijão",
+      "valor": 5,
+      "quantidade": 1
+    }
+  ]
+}

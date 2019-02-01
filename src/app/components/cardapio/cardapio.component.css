@@ -1,0 +1,65 @@
+.flex[_ngcontent-c1] {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-direction: column;
+}
+
+
+.logo {
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    background: silver;
+}
+
+.add{
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: unset; */
+    width: 100%;
+    height: 13%;
+    background: silver;
+    margin: 6% 0% 0% 0%;
+    font-size: large;
+}
+
+.card{
+
+    display: flex;
+    width: 23%;
+    height: 41%;
+    background: white;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 5% 0% 0% 0%;
+}
+
+.card-pai{
+    display: flex;
+    justify-content: space-around;
+}
+
+img[_ngcontent-c1] {
+    width: 40%;
+    height: 38%;
+    border-radius: 120px;
+    margin: 17px auto;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    margin: 1% auto;
+}
+
+button, input {
+    overflow: visible;
+    margin: 1% 0% 0% 5%;
+}
+
+p[_ngcontent-c1] {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    margin: 1% auto;
+}

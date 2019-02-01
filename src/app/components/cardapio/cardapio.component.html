@@ -1,0 +1,47 @@
+<!-- <div class="input">
+  <form [formGroup]= "formCardapio" (ngSubmit)="enviarPrato()">
+    <input type="text" formControlName = "nome">
+    <input type="number" formControlName = "valor">
+    <input type="number" formControlName = "quantidade">
+    <button class="btn btn-primary" type="submit" >Enviar</button>
+  </form>
+</div> -->
+
+
+
+<div class="flex">
+
+  <div class="logo">
+
+    <p>Cardapio</p>
+
+    <!-- <img id="sushi" src="../../assets/sushi.jpg" alt="logo"> -->
+
+  </div>
+
+
+  <div class="add">
+
+    <p>Adicionar prato</p>
+
+    <input type="text" [(ngModel)]="prato.nome">
+    <input type="number" [(ngModel)]="prato.valor">
+    <input type="number" [(ngModel)]="prato.quantidade">
+    <button class="btn btn-primary" type="submit" (click)="enviarPrato()">Enviar</button>
+
+  </div>
+
+  <div class="card-pai">
+
+      <div class="card" *ngFor="let item of itens">
+
+          <img id="temaki" src="../../assets/temaki.jpg" alt="chronos">
+      
+          <p>{{item.nome}}</p>
+          <p>{{item.valor}}</p>
+          <p><button class="btn btn-primary" type="submit" (click)="delete()">Excluir</button></p>
+      
+        </div>
+  </div>
+
+</div>
